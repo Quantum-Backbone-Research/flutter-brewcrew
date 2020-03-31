@@ -33,7 +33,7 @@ class _SignInState extends State<SignIn> {
         appBar: AppBar(
           backgroundColor: Colors.brown[400],
           elevation: 0.0,
-          title: Text('Sign in'),
+          title: Text('Sign In'),
           actions: <Widget>[
             FlatButton.icon(
               onPressed: () {

@@ -14,8 +14,8 @@ class MyApp extends StatelessWidget {
       value: Auth().user,
       child: MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Flutter Demo',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        title: 'Brew Crew',
+        theme: ThemeData(primarySwatch: Colors.brown),
         home: Wrapper(),
       ),
     );
